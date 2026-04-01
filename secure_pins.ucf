@@ -1,0 +1,49 @@
+# สัญญาณนาฬิกา
+
+NET "clk" LOC = P123;
+
+# กลุ่มปุ่มกด (PB1, PB2, PB3)
+
+NET "btn_submit"     LOC = P48;  # PB4
+NET "rst_n"          LOC = P46;  # PB2
+NET "btn_change_pwd" LOC = P47;  # PB3
+
+# กลุ่มสวิตช์เลื่อน Slide Switch สีแดง (SW0-SW7)
+
+NET "dip_sw[7]" LOC = P55;  # SW7
+NET "dip_sw[6]" LOC = P56;  # SW6
+NET "dip_sw[5]" LOC = P57;  # SW5
+NET "dip_sw[4]" LOC = P58;  # SW4
+NET "dip_sw[3]" LOC = P59;  # SW3
+NET "dip_sw[2]" LOC = P61;  # SW2
+NET "dip_sw[1]" LOC = P62;  # SW1
+NET "dip_sw[0]" LOC = P66;  # SW0
+
+# หน้าจอ 7-Segment และ LED
+
+NET "a" LOC = P41;
+NET "b" LOC = P40;
+NET "c" LOC = P35;
+NET "d" LOC = P34;
+NET "e" LOC = P32;
+NET "f" LOC = P29;
+NET "g" LOC = P27;
+NET "com0" LOC = P44;
+NET "com1" LOC = P43;
+NET "com2" LOC = P33;
+NET "com3" LOC = P30;
+NET "led[7]" LOC = P67;
+
+NET "led[6]" LOC = P74;
+
+NET "led[5]" LOC = P75;
+
+NET "led[4]" LOC = P78;
+NET "led[3]" LOC = P79;
+
+NET "led[2]" LOC = P80;
+
+NET "led[1]" LOC = P81;
+
+NET "led[0]" LOC = P82;
+NET "buzzer" LOC = P83;
